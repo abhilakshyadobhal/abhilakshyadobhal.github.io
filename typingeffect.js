@@ -1,5 +1,5 @@
 $(".type").typed({
-		strings: ["UI Developer", "UX Designer", "Content Writer","Enthusiastic Learner"],
+		strings: ["UI/ UX Designer","Full Stack Developer", "Content Writer","Enthusiastic Learner"],
 		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 		stringsElement: null,
 		// typing speed
