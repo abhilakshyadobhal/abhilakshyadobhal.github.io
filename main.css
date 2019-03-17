@@ -12,7 +12,8 @@ body{
 }
 .nav-link{
     color: white !important;
-    font-weight: 600;
+    font-family: 'Lilita One', cursive;
+    letter-spacing: 1px;
 }
 
 .custom-toggler.navbar-toggler {
@@ -21,6 +22,22 @@ body{
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
+
+.customnav{
+    background: #1B242F !important;
+    height: 75px;
+}
+
+.nav-link:hover{
+    color: #E31B6D !important;
+}
+
+.active{
+    border-bottom: solid #E31B6D;
+}
+/* 
+    main section css 
+*/
 .details
 {
     position: absolute;
@@ -36,12 +53,24 @@ body{
     color: #E31B6D;
 }
 
-.customnav{
-    background: #1B242F !important;
-    height: 75px;
-}
 
 .type
 {
     font-size: 30px;
+}
+
+/* 
+    about me section
+*/
+
+section{
+    padding-top: 70px;
+}
+
+.lines
+{
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
 }
