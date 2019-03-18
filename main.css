@@ -26,7 +26,7 @@ body{
 
 .customnav{
     background: #1B242F !important;
-    height: 75px;
+    /* height: 75px; */
 }
 
 .nav-link:hover{
