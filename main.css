@@ -57,7 +57,7 @@ body{
 
 .type
 {
-    font-size: 30px;
+    font-size: 1.5rem;
 }
 
 /* 
@@ -77,5 +77,15 @@ section{
 }
 .box-shadow-full{
     padding: 45px 30px; 
+    border-radius: 25px;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.06), 0 2px 5px 0 rgba(0,0,0,.2);
+}
+
+/* 
+    portfolio section 
+*/
+
+#portfolio
+{
+    height: 80vh;
 }
