@@ -36,6 +36,10 @@ body{
 .active{
     border-bottom: solid #E31B6D;
 }
+
+.active .nav-link{
+    color: #E31B6D !important;
+}
 /* 
     main section css 
 */
@@ -72,6 +76,7 @@ body{
 section{
     margin-top: 70px;
 }
+
 
 .lines
 {
