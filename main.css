@@ -73,10 +73,6 @@ body{
     about me section
 */
 
-section{
-    margin-top: 70px;
-}
-
 
 .lines
 {
@@ -86,8 +82,10 @@ section{
     margin: 0 auto;
 }
 .box-shadow-full{
-    padding: 45px 30px; 
-    border-radius: 25px;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.06), 0 2px 5px 0 rgba(0,0,0,.2);
 }
 
@@ -98,4 +96,11 @@ section{
 #portfolio
 {
     height: 80vh;
+}
+
+
+.bgImage{
+    background: url('./img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
