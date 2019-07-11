@@ -12,38 +12,37 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500|Open+Sans:300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
 
-    <nav class="navbar fixed-top navbar-expand-lg customnav" id="navbar">
+    <nav class="navbar fixed-top navbar-expand-lg customnav navbar-light bg-light" id="navbar">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="./img/engineering.svg" alt="" srcset="" width="50px"
                     class="animated fadeInLeft delay-1s"></a>
-            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon my-toggler"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto nav-pills">
                     <li class="nav-item active mr-3">
-                        <a class="nav-link" href="#home">HOME<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item mr-3">
-                        <a class="nav-link" href="#aboutme">ABOUT</a>
+                        <a class="nav-link" href="#aboutme">About</a>
                     </li>
                     <li class="nav-item mr-3">
-                        <a class="nav-link" href="#portfolio">WORK</a>
+                        <a class="nav-link" href="#portfolio">Work</a>
                     </li>
                     <li class="nav-item mr-3">
-                        <a class="nav-link" href="#contact">CONTACT</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -54,7 +53,9 @@
 
     <main class="mycontainer" id="home">
         <div class="details">
-            <h1>Hello, my name is <span class="name">Abhilakshya Dobhal</span></h1f>
+            <h1><span role="img" aria-label="emoji">Hello👋</span>, my name is <button
+                    class="button is-primary is-rounded is-medium" data-view="#contact"><span>Abhilakshya
+                        Dobhal</span></button></h1f>
                 <h2>I'm a</h2>
                 - <span class="type" style="color:white; font-family: 'Righteous', cursive;"></span><br>
         </div>
@@ -64,75 +65,25 @@
 
     <div class="bgImage">
 
-        <section id="aboutme">
+        <section id="aboutme" class="mb-5 pt-3">
             <div class="text-center">
-                <h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                    style="font-family: 'Lilita One', cursive;">
-                    ABOUT ME</h1>
+                <h1 class="pt-5" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                    style="font-family: 'Montserrat', sans-serif;">
+                    About Me</h1>
                 <div class="lines"></div>
             </div>
-            <div class="container px-5 my-5 py-5">
+            <div class="container py-5 my-5">
+                <img src="./img.jpg" class="mx-auto d-block rounded-circle" alt="..." style="width:150px;">
                 <div class="row">
-                    <div class="col-sm-12">
-                        <div class="box-shadow-full">
-
-                            <div class="row " data-aos="fade-up">
-                                <div class="col-lg-6">
-                                    <div class="about-img">
-                                        <img src="img.jpg" class="img-fluid rounded" alt="Abhilakshya Dobhal">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <p class="text-center">
-                                        I am a B.Tech <img src="./img/eng.svg" alt="" srcset=""
-                                            style="display:inline; width:20px;"> 3<sup>rd</sup> Year student.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="skill-mf " data-aos="fade-up">
-                                <h3 class="technologies my-5 text-center">
-                                    Technologies I Know</h3>
-                                <div class="row">
-                                    <div class="about-img col-lg-1 col-md-4 col-sm-3 col-3 mb-5 px-3">
-                                        <img src="img/html.png" class="img-fluid rounded b-shadow-a" alt="">
-                                    </div>
-                                    <div class="about-img col-lg-1 col-md-4 col-sm-3 col-3 mb-5 px-3">
-                                        <img src="img/css.png" class="img-fluid rounded b-shadow-a" alt="">
-                                    </div>
-                                    <div class="about-img col-lg-1 col-md-4 col-sm-3 col-3 mb-5 px-3">
-                                        <img src="img/bs.png" class="img-fluid rounded b-shadow-a" alt="">
-                                    </div>
-                                    <div class="about-img col-lg-1 col-md-6 col-sm-3 col-3 mb-5 px-3">
-                                        <img src="img/js.png" class="img-fluid rounded b-shadow-a" alt="">
-                                    </div>
-                                    <div class="about-img col-lg-1 col-md-6 col-sm-3 col-3 mb-5 px-3">
-                                        <img src="img/jq.png" class="img-fluid rounded b-shadow-a" alt="">
-                                    </div>
-                                    <div class="about-img col-lg-1 col-md-4 col-sm-3 col-3 mb-5 px-3">
-                                        <img src="img/php.png" class="img-fluid rounded b-shadow-a" alt="">
-                                    </div>
-                                    <div class="about-img col-lg-1 col-md-4 col-sm-3 col-3 mb-5 px-3">
-                                        <img src="img/sql.png" class="img-fluid rounded b-shadow-a" alt="">
-                                    </div>
-                                    <div class="about-img col-lg-1 col-md-4 col-sm-3 col-3 mb-5 px-3">
-                                        <img src="img/git.png" class="img-fluid rounded b-shadow-a" alt="">
-                                    </div>
-                                    <div class="about-img col-lg-1 col-md-4 col-sm-3 col-3 mb-5 px-3">
-                                        <img src="img/xd.png" class="img-fluid rounded b-shadow-a" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- <div class="col-md-6">
-                                <div class="about-me pt-4 pt-md-0">
-                                    <p class="lead " data-aos="fade-in">
-                                        I am a <b> B.Tech third year engineering student</b> at <i>  Lovely Professional university</i>
-                                        with my engineering minor as Full Stack
-                                        Web Development.
-                                    </p>
-                                </div>
-                            </div> -->
-
-                        </div>
+                    <div class="text-center">
+                        <p class="px-5 pt-5"
+                            style="font-family: 'Open Sans', sans-serif; color: rgb(74,74,74); font-weight: 600;">Hi!
+                            I'm Abhilakshya a
+                            Full-Stack Web developer. Geek by nature I was always curiously
+                            interested in technology, music, and
+                            gaming. I still remember when I was a kid and my relatives used to ask me what I wanna do
+                            for the living which I used to
+                            answer "study computers". I guess that sometimes the dreams come true.</p>
                     </div>
                 </div>
             </div>
@@ -140,20 +91,53 @@
 
         <!-- Portfolio Section -->
 
-        <section id="portfolio">
+        <section id="portfolio" class=" mt-5 pt-5">
             <div class="text-center">
-                <h1 style="font-family: 'Lilita One', cursive;">
-                    PORTFOLIO</h1>
+                <h1 style="font-family: 'Montserrat', sans-serif;">
+                    Portfolio</h1>
                 <h2 class="mt-2" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                    style="font-family: 'Ropa Sans', sans-serif; font-weight: 700;">Check Out My Works</h2>
+                    style="font-family: 'Montserrat', sans-serif;">Check Out My Works</h2>
                 <div class="lines"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12 mt-5" data-aos="fade-up">
+                            <div class="projectBox card p-2">
+                                <figure class="figure">
+                                    <img src="./img/projects/weatherInfo.jpg" class="figure-img img-fluid rounded"
+                                        alt="A generic square placeholder image with rounded corners in a figure.">
+                                    <figcaption class="figure-caption">WeatherInfo</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 mt-5" data-aos="fade-up">
+                            <div class="projectBox card p-2">
+                                <figure class="figure">
+                                    <img src="./img/projects/weatherInfo.jpg" class="figure-img img-fluid rounded"
+                                        alt="A generic square placeholder image with rounded corners in a figure.">
+                                    <figcaption class="figure-caption">WeatherInfo</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 mt-5" data-aos="fade-up">
+                            <div class="projectBox card p-2">
+                                <figure class="figure">
+                                    <img src="./img/projects/weatherInfo.jpg" class="figure-img img-fluid rounded"
+                                        alt="A generic square placeholder image with rounded corners in a figure.">
+                                    <figcaption class="figure-caption">WeatherInfo</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </section>
 
     </div>
+
+
     <!-- footer section -->
-    <footer class="bg-dark">
+    <footer class="bg-dark mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -167,6 +151,7 @@
             </div>
         </div>
     </footer>
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
